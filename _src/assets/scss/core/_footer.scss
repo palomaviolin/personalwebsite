@@ -2,12 +2,37 @@ footer {
   padding: 40px;
 }
 
+.footer_sub-pages {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_sub-pages {
+  margin: 0 auto;
+  padding-top: 54px;
+}
+
+.a_header-contact {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: darkturquoise;
+}
+
+.i_header-contact {
+  font-size: 70px;
+  display: flex;
+  align-self: center;
+}
+
 .a__social-links {
   text-decoration: none;
   color: $color_footer_icons_white;
   font-size: 30px;
   padding: 6px 10px;
-  margin-right: 45px;
+  margin-right: 15px;
   border-radius: 30px;
   border: 2px solid $color_footer_border_darkblue;
 }
