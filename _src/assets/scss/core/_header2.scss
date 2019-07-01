@@ -48,3 +48,36 @@
 .icon_undo {
   font-size: 78px;
 }
+
+// RESPONSIVE del HEADER2 para pantallas de más de 720px,
+// aunque he tenido que poner el código comentado
+// porque sino se DESCUADRA todo en la vista de menos
+// de 720px, aunque no tiene sentido por qué pasa esto.
+
+// @media (min-width: 720px) {
+//   .name_sub-pages {
+//     height: 20vh;
+//   }
+
+//   .title-header_sub-pages {
+//     font-size: 40px;
+//   }
+
+//   .subtitle-header_sub-pages {
+//     font-size: 30px;
+//   }
+
+//   .button-return {
+//     width: 100px;
+//     height: 35px;
+//     border-radius: 20px;
+//   }
+
+//   .icons_return-home {
+//     font-size: 44px;
+//   }
+
+//   .icon_undo {
+//     font-size: 40px;
+//   }
+// }
