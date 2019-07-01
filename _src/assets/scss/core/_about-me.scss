@@ -1,0 +1,185 @@
+.body_landing-page {
+  background-color: lightblue;
+  color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.img_about-me {
+  width: 100%;
+}
+
+.container_text_about-me {
+  padding: 10px 45px 0px 45px;
+  margin-bottom: 24px;
+}
+
+.p-bio {
+  color: black;
+  font-weight: normal;
+  font-size: 42px;
+  font-family: $font-family_secondary_cardo;
+}
+
+// Here starts container ARTICLES:
+
+.container-articles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.a-articles {
+  text-decoration: none;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.img-articles {
+  width: 310px;
+  height: 240px;
+  margin: 20px 20px 15px 0px;
+  border-radius: 18px;
+  &:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.articles_text-title {
+  font-family: $font-family_secondary_cardo;
+  color: black;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 54px;
+  &:hover {
+    color: orange;
+  }
+}
+
+// Here starts container AWARDS:
+
+.container-awards {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.trophy-styles {
+  color: yellow;
+}
+
+.awards_image-and-title {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+}
+
+.img-awards {
+  width: 210px;
+  height: 200px;
+  padding-top: 100px;
+  padding-right: 30px;
+}
+
+.awards_text-title {
+  font-family: $font-family_secondary_cardo;
+  font-size: 46px;
+  font-weight: bold;
+  color: black;
+  padding-right: 60px;
+  margin: 30px 0px 30px 0px;
+}
+
+.awards_text-subtitle {
+  font-family: $font-family_secondary_cardo;
+  font-size: 42px;
+  font-weight: normal;
+  color: gray;
+  padding-right: 60px;
+  margin: 4px 0;
+}
+
+// Here starts ACCORDION:
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+// .active, .accordion:hover {
+//   background-color: #ccc;
+// }
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+// Here starts accordion styles added later:
+
+.accordion {
+  // collapsible
+  height: 185px;
+  border: 6px solid rgb(48, 30, 30);
+  background-color: gray;
+  font-family: $font-family_secondary_cardo;
+  font-weight: bold;
+  font-size: 55px;
+  color: white;
+  padding: 0 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 1px 0px;
+
+  // &:hover {
+  //   background-color: lightgray;
+  // }
+}
+
+.panel {
+  // content
+  background-color: white;
+  height: auto;
+  width: fit-content;
+}
+
+.title-button-accordion {
+  color: white;
+  font-weight: normal;
+}
+
+// Here starts footer_sub-pages styles (added to already existing footer styles):
+
+.footer_sub-pages {
+  margin-top: 40px;
+}
+
+.footer_sub-pages_copy {
+  font-size: 54px;
+  font-weight: 600;
+}

@@ -1,0 +1,85 @@
+.body_projects {
+  background-color: white;
+}
+
+// --------------------
+
+.main-title_projects {
+  height: 350px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+}
+
+.main-title_projects_text {
+  text-transform: uppercase;
+  font-size: 125px;
+  border-top: 8px solid darkblue;
+  border-bottom: 8px solid darkblue;
+  width: 65%;
+  margin: 0 auto;
+}
+
+// --------------------
+
+.principal-ul_projects {
+  padding: 0;
+  margin: 42px 0;
+}
+
+.secondary-ul_projects {
+  padding: 0;
+  margin: 0;
+}
+
+.section_projects {
+  background-color: white;
+  padding: 0 20px;
+}
+
+.section__projects_title {
+  color: coral;
+  font-size: 85px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  padding: 55px 45px 15px 0px;
+  padding-left: 45px;
+}
+
+.section__projects_subtitle {
+  color: orange;
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 45px 5px 45px;
+}
+
+.description-text-project {
+  font-family: "Cardo", serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 25px 45px 25px 45px;
+  text-align: center;
+}
+
+.container_links-repos-projects {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: 40px auto 10px auto;
+}
+
+.links-repos-projects {
+  color: gray;
+  font-size: 60px;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: none;
+  &:hover {
+    text-decoration-line: underline;
+    color: darkturquoise;
+  }
+}

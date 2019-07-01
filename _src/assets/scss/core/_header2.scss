@@ -1,0 +1,50 @@
+.name_sub-pages {
+  background-color: $color_header-background_white;
+  width: 100%;
+  height: 245px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-header_sub-pages {
+  font-size: 80px;
+  // font-family: 'Poiret One', cursive;
+  font-family: $font-family_principal_barlow;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 75px;
+}
+
+.subtitle-header_sub-pages {
+  font-size: 60px;
+  font-family: $font-family_principal_barlow;
+  font-weight: 500;
+  margin: 0;
+  padding-left: 75px;
+  color: $color_h2_mediumblue;
+}
+
+.button-return {
+  background-color: $color_header_buttons_darkturquoise;
+  text-decoration: none;
+  color: $color_header_icons_white;
+  border-radius: 30px;
+  border: 2px solid $color_header_border_darkblue;
+  padding: 20px;
+  margin-right: 60px;
+  &:hover {
+    background-color: $color_header_buttons_active_white;
+    color: $color_header_icons_active_mediumblue;
+    border: 2px solid $color_header_border_active_mediumblue;
+  }
+}
+
+.icons_return-home {
+  font-size: 85px;
+}
+
+.icon_undo {
+  font-size: 78px;
+}
