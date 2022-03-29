@@ -5,14 +5,14 @@
 // --------------------
 
 .main-title_skills {
-  height: 350px;
+  height: 120px;
   background-color: lightblue;
   display: flex;
   align-items: center;
 }
 
 .main-title_skills_text {
-  font-size: 125px;
+  font-size: 45px;
   border-top: 8px solid darkblue;
   border-bottom: 8px solid darkblue;
   width: 40%;
@@ -28,11 +28,11 @@
 .section__programming_title {
   font-family: "Cardo", serif;
   color: black;
-  font-size: 95px;
+  font-size: 25px;
   margin: 0 auto;
   text-align: left;
-  padding: 100px 0px 30px 0px;
-  padding-left: 45px;
+  padding: 30px 0px 0px 0px;
+  padding-left: 15px;
 }
 
 ul {
@@ -46,11 +46,11 @@ ul .li-skills:before {
 
 .li-skills {
   font-family: "Cardo", serif;
-  font-size: 64px;
+  font-size: 20px;
   font-weight: normal;
   color: black;
-  margin: 30px auto;
-  padding-left: 85px;
+  margin: 12px auto;
+  padding-left: 0px;
 }
 
 // --------------------
@@ -62,10 +62,10 @@ ul .li-skills:before {
 .section__languages_title {
   font-family: "Cardo", serif;
   color: black;
-  font-size: 95px;
+  font-size: 25px;
   margin: 0 auto;
   text-align: left;
-  padding: 55px 0px 30px 45px;
+  padding: 15px 0px 12px 15px;
 }
 
 .ul-languages {
@@ -79,27 +79,28 @@ ul .li-skills:before {
 .flag-img {
   display: flex;
   align-self: center;
-  width: 250px;
-  height: 250px;
+  width: 80px;
+  height: 80px;
 }
 
 .english {
-  margin: 0px 55px;
+  margin: 0px 20px;
 }
 
 // --------------------
 
 .section__soft-skills {
   background-color: white;
+  margin-top: 10px;
 }
 
 .section__soft-skills_title {
   font-family: "Cardo", serif;
   color: black;
-  font-size: 95px;
+  font-size: 25px;
   margin: 0 auto;
   text-align: left;
-  padding: 100px 0px 30px 45px;
+  padding: 30px 0px 12px 15px;
 }
 
 .container_icon-and-text_soft-skills {
@@ -108,18 +109,18 @@ ul .li-skills:before {
 }
 
 .soft-skills_icon {
-  font-size: 160px;
+  font-size: 48px;
   margin: 0px auto;
-  margin-left: 45px;
+  margin-left: 39px;
   margin-right: 5px;
 }
 
 .soft-skills_text {
   font-family: "Cardo", serif;
-  font-size: 64px;
+  font-size: 20px;
   font-weight: normal;
   color: black;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 // --------------------
@@ -131,4 +132,48 @@ ul .li-skills:before {
 
 .footer_skills_copy {
   font-size: 35px;
+}
+
+// --------------------
+
+
+@media (min-width: 720px) {
+
+  .main-title_skills {
+    height: 160px;
+  }
+
+  .main-title_skills_text {
+    font-size: 60px;
+  }
+
+  .section__programming-skills, .section__languages, .section__soft-skills {
+    margin-left: 24%;
+  }
+
+  .section__programming_title, .section__languages_title, .section__soft-skills_title {
+    font-size: 30px;
+    padding-left: 40px;
+  }
+
+  .li-skills, .soft-skills_text {
+    font-size: 25px;
+    padding-left: 25px;
+    margin-left: 0px;
+  }
+
+  .ul-languages {
+    justify-content: left;
+    padding-left: 65px;
+  }
+
+  .flag-img {
+    width: 150px;
+    height: 140px;
+  }
+
+  .container_icon-and-text_soft-skills {
+    padding-left: 25px;
+  }
+
 }
