@@ -193,7 +193,7 @@
 .title-button-accordion {
   color: white;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 24px;
   margin: 20px;
 }
 
@@ -264,22 +264,27 @@
 
 .a-articles {
   font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px 25px 0px;
 }
 
 .img-articles {
-  width: 480px;
-  height: 330px;
+  // width: 480px;
+  // height: 330px;
+  width: 50%;
 }
 
 .articles_text-title {
   font-size: 30px;
+  width: 50%;
 }
 
 
 // Here starts container AWARDS:
 
 .container-awards {
-
+  margin-top: 35px;
 }
 
 .awards_image-and-title {
@@ -294,20 +299,20 @@
 }
 
 .img-awards {
-  width: 130px;
-  height: 105px;
-  padding-top: 50px;
+  width: 100px;
+  height: 50ppx;
+  padding-top: 30px;
   padding-right: 0px;
   padding-left: 30px;
 }
 
 .awards_text-title {
-  font-size: 32px;
+  font-size: 25px;
   //margin: 30px 0px 30px 0px;
 }
 
 .awards_text-subtitle {
-  font-size: 30px;
+  font-size: 22px;
 }
 
 }
