@@ -1,28 +1,30 @@
 footer {
-  padding: 40px;
+  //padding: 40px;
+  margin: 0;
 }
 
 .footer_sub-pages {
-  padding: 10px 0;
+  margin-top: 15px;
+  padding: 0;
   display: flex;
   flex-direction: column;
 }
 
 .contact_sub-pages {
   margin: 0 auto;
-  padding-top: 54px;
+  padding-top: 4px;
 }
 
 .a_header-contact {
-  width: 100px;
-  height: 100px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   background-color: darkturquoise;
 }
 
 .i_header-contact {
-  font-size: 70px;
+  font-size: 25px;
   display: flex;
   align-self: center;
 }
@@ -43,6 +45,10 @@ footer {
   border: 2px solid $color_footer_border_active_mediumblue;
 }
 
+.a__social-link_remove-right-margin {
+  margin-right: 0px;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -54,8 +60,23 @@ p {
   font-weight: bold;
 }
 
+.footer_sub-pages_copy{
+  margin: 12px;
+  font-size: 16px;
+}
+
 @media (min-width: 720px) {
-  .footer_sub-pages_copy {
+  .a_header-contact {
+    width: 60px;
+    height: 60px;
+  }
+
+  .i_header-contact {
     font-size: 45px;
+  }
+
+  .footer_sub-pages_copy {
+    font-size: 20px;
+    padding: 8px 0px 8px 0px;
   }
 }

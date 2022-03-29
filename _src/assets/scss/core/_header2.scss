@@ -1,7 +1,7 @@
 .name_sub-pages {
   background-color: $color_header-background_white;
   width: 100%;
-  height: 245px;
+  height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,31 +9,33 @@
 }
 
 .title-header_sub-pages {
-  font-size: 80px;
+  font-size: 30px;
   // font-family: 'Poiret One', cursive;
   font-family: $font-family_principal_barlow;
   font-weight: 600;
   margin: 0;
-  padding-left: 75px;
+  padding-left: 15px;
 }
 
 .subtitle-header_sub-pages {
-  font-size: 60px;
+  font-size: 20px;
   font-family: $font-family_principal_barlow;
   font-weight: 500;
   margin: 0;
-  padding-left: 75px;
+  padding-left: 15px;
   color: $color_h2_mediumblue;
 }
 
 .button-return {
+  width: 52px;
+  height: 25px;
   background-color: $color_header_buttons_darkturquoise;
   text-decoration: none;
   color: $color_header_icons_white;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 2px solid $color_header_border_darkblue;
-  padding: 20px;
-  margin-right: 60px;
+  padding: 10px;
+  margin-right: 15px;
   &:hover {
     background-color: $color_header_buttons_active_white;
     color: $color_header_icons_active_mediumblue;
@@ -42,42 +44,40 @@
 }
 
 .icons_return-home {
-  font-size: 85px;
+  font-size: 23px;
 }
 
 .icon_undo {
-  font-size: 78px;
+  font-size: 23px;
 }
 
+
 // RESPONSIVE del HEADER2 para pantallas de más de 720px,
-// aunque he tenido que poner el código comentado
-// porque sino se DESCUADRA todo en la vista de menos
-// de 720px, aunque no tiene sentido por qué pasa esto.
 
-// @media (min-width: 720px) {
-//   .name_sub-pages {
-//     height: 20vh;
-//   }
+@media (min-width: 720px) {
+  .name_sub-pages {
+    height: 25vh;
+  }
 
-//   .title-header_sub-pages {
-//     font-size: 40px;
-//   }
+  .title-header_sub-pages {
+    font-size: 40px;
+  }
 
-//   .subtitle-header_sub-pages {
-//     font-size: 30px;
-//   }
+  .subtitle-header_sub-pages {
+    font-size: 30px;
+  }
 
-//   .button-return {
-//     width: 100px;
-//     height: 35px;
-//     border-radius: 20px;
-//   }
+  .button-return {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+  }
 
-//   .icons_return-home {
-//     font-size: 44px;
-//   }
+  .icons_return-home {
+    font-size: 44px;
+  }
 
-//   .icon_undo {
-//     font-size: 40px;
-//   }
-// }
+  .icon_undo {
+    font-size: 40px;
+  }
+}
