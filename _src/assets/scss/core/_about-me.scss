@@ -203,7 +203,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  //width: 100vw; --> OJO que esta línea es la que provocaba el ancho deforme
 }
 
 .img-awards {
@@ -240,66 +240,30 @@
 // Here starts container ARTICLES:
 // Entre el ancho de 720px y 920px hay que poner otras mediaqueries
 
-.container-articles {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding-top: 20px;
-}
+// OJO porque algo aquí es lo que provocaba el ancho deforme
+// .container-articles {
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   margin: 0 auto;
+//   padding-top: 20px;
+// }
 
 .a-articles {
-  text-decoration: none;
   font-size: 40px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  padding: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .img-articles {
   width: 480px;
   height: 330px;
-  margin: 20px 20px 15px 0px;
-  border-radius: 18px;
-  &:hover {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  }
 }
 
 .articles_text-title {
-  font-family: $font-family_secondary_cardo;
-  color: black;
-  font-weight: normal;
-  font-style: italic;
   font-size: 30px;
-  &:hover {
-    color: orange;
-  }
 }
 
 
 // Here starts container AWARDS:
-
-.container-awards {
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 60px;
-}
-
-.trophy-styles {
-  color: yellow;
-}
-
-.awards_image-and-title {
-  width: 100%;
-  display: flex;
-  padding: 30px;
-}
 
 .img-awards {
   width: 130px;
@@ -309,21 +273,12 @@
 }
 
 .awards_text-title {
-  font-family: $font-family_secondary_cardo;
   font-size: 32px;
-  font-weight: bold;
-  color: black;
-  padding-right: 60px;
-  margin: 30px 0px 30px 0px;
+  //margin: 30px 0px 30px 0px;
 }
 
 .awards_text-subtitle {
-  font-family: $font-family_secondary_cardo;
   font-size: 30px;
-  font-weight: normal;
-  color: gray;
-  padding-right: 60px;
-  margin: 4px 0;
 }
 
 }
