@@ -24,32 +24,33 @@
 
 .principal-ul_projects {
   padding: 0;
-  margin: 42px 0;
+  margin: 0px;
 }
 
 .secondary-ul_projects {
   padding: 0;
   margin: 0;
+  margin: 30px 0px 30px 0px;
 }
 
 .section_projects {
   background-color: white;
-  padding: 0 20px;
+  padding: 0px;
 }
 
 .section__projects_title {
   color: coral;
-  font-size: 85px;
+  font-size: 35px;
   font-weight: bold;
   margin: 0 auto;
   text-align: center;
-  padding: 55px 45px 15px 0px;
+  padding: 0px 45px 2px 0px;
   padding-left: 45px;
 }
 
 .section__projects_subtitle {
   color: orange;
-  font-size: 60px;
+  font-size: 25px;
   font-weight: 400;
   margin: 0 auto;
   text-align: center;
@@ -58,9 +59,9 @@
 
 .description-text-project {
   font-family: "Cardo", serif;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 400;
-  padding: 25px 45px 25px 45px;
+  padding: 5px 45px 0px 45px;
   text-align: center;
 }
 
@@ -68,12 +69,12 @@
   display: flex;
   justify-content: space-around;
   width: 85%;
-  margin: 40px auto 10px auto;
+  margin: 5px auto 5px auto;
 }
 
 .links-repos-projects {
   color: gray;
-  font-size: 60px;
+  font-size: 23px;
   font-weight: normal;
   font-style: italic;
   text-transform: uppercase;
@@ -81,5 +82,15 @@
   &:hover {
     text-decoration-line: underline;
     color: darkturquoise;
+  }
+}
+
+@media (min-width: 720px) {
+  .main-title_projects {
+    height: 160px;
+  }
+
+  .main-title_projects_text {
+    font-size: 60px;
   }
 }
