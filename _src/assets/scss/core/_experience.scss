@@ -48,6 +48,9 @@
   margin: 0 auto;
   text-align: center;
   padding: 0px 45px 5px 45px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
   // padding-left: 45px;
 }
 
@@ -112,6 +115,16 @@
 
   .intro-text-bootcamp, .li-bootcamp {
     font-size: 22px;
+  }
+
+  .date {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 720px) {
+  .section__experience_subtitle {
+    gap: 25px;
   }
 }
 
