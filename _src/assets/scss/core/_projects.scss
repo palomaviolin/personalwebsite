@@ -67,7 +67,8 @@
 
 .container_links-repos-projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
   width: 85%;
   margin: 5px auto 5px auto;
 }
