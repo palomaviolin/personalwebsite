@@ -2,14 +2,6 @@
 
 console.log('>> Ready :)');
 
-// Defining variable and function for audio:
-
-var audio1 = document.getElementById("audioID");
-
-function playAudio() {
-  audio1.play();
-}
-
 // Defining variable and function for ACCORDION:
 
 var acc = document.getElementsByClassName("accordion");

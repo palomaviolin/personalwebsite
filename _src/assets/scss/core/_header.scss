@@ -10,7 +10,6 @@
 
 .title-header_sub-pages {
   font-size: 30px;
-  // font-family: 'Poiret One', cursive;
   font-family: $font-family_principal_barlow;
   font-weight: 600;
   margin: 0;
@@ -52,7 +51,7 @@
 }
 
 
-// RESPONSIVE del HEADER2 para pantallas de más de 720px,
+// RESPONSIVE of 'shared header' for screens of more than 720px,
 
 @media (min-width: 720px) {
   .name_sub-pages {

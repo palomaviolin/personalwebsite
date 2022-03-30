@@ -42,12 +42,9 @@
 .a-articles {
   text-decoration: none;
   font-size: 40px;
-  // display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
   align-items: center;
-  // padding: 5px;
-  // padding-top: 5px;
   &:hover {
     .img-articles {
       box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -69,9 +66,6 @@
   width: 310px;
   height: 240px;
   border-radius: 18px;
-  // &:hover {
-  //   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  // }
 }
 
 .articles_text-title {
@@ -83,9 +77,6 @@
   font-size: 20px;
   margin: 0;
   padding: 22px 0px 5px 0px;
-  // &:hover {
-  //   color: orange;
-  // }
 }
 
 // Here starts container AWARDS:
@@ -101,11 +92,16 @@
 }
 
 .awards_image-and-title {
-  //width: 100%;
   display: flex;
-  // padding: 0px 5px 0px 5px;
   margin: auto;
-  //width: 100vh;
+}
+
+.container_img-logo-business{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+  //width: 100vw; --> BEWARE because this line is the one that used to cause the deformed width.
 }
 
 .img-awards {
@@ -113,6 +109,7 @@
   height: 100px;
   padding-top: 100px;
   padding-right: 30px;
+  margin-right: 25px;
 }
 
 .awards_text-title {
@@ -120,7 +117,6 @@
   font-size: 22px;
   font-weight: bold;
   color: black;
-  // padding-right: 60px;
   margin: 30px 0px 10px 0px;
   text-align: left;
 }
@@ -130,7 +126,6 @@
   font-size: 19px;
   font-weight: normal;
   color: gray;
-  // padding-right: 60px;
   margin: 4px 0;
   text-align: left;
 }
@@ -177,10 +172,6 @@
   justify-content: space-between;
   align-items: baseline;
   margin: 1px 0px;
-
-  // &:hover {
-  //   background-color: lightgray;
-  // }
 }
 
 .panel {
@@ -197,32 +188,6 @@
   margin: 20px;
 }
 
-// Here starts footer_sub-pages styles (added to already existing footer styles):
-
-.footer_sub-pages {
-  margin-top: 40px;
-}
-
-.footer_sub-pages_copy {
-  font-size: 54px;
-  font-weight: 600;
-}
-
-// ------------------ Here new styles for the new format for logo&text awards:
-.container_img-logo-business{
-  // background-color: lightcoral; // color solo para visualizar el div mientras lo creo
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  //justify-content: center;
-  align-content: flex-start;
-  //width: 100vw; --> OJO que esta línea es la que provocaba el ancho deforme
-}
-
-.img-awards {
-  margin-right: 25px;
-}
-
 // -------------------
 
 
@@ -234,7 +199,6 @@
 }
 
 @media (min-width: 720px) {
-
 
 .p-bio {
   font-size: 26px;
@@ -253,15 +217,6 @@
 // Here starts container ARTICLES:
 // Entre el ancho de 720px y 920px hay que poner otras mediaqueries
 
-// OJO porque algo aquí es lo que provocaba el ancho deforme
-// .container-articles {
-//   width: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   margin: 0 auto;
-//   padding-top: 20px;
-// }
-
 .a-articles {
   font-size: 40px;
   display: flex;
@@ -270,8 +225,6 @@
 }
 
 .img-articles {
-  // width: 480px;
-  // height: 330px;
   width: 50%;
 }
 
@@ -308,7 +261,6 @@
 
 .awards_text-title {
   font-size: 25px;
-  //margin: 30px 0px 30px 0px;
 }
 
 .awards_text-subtitle {

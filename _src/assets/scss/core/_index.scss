@@ -1,5 +1,5 @@
 .body_landing-page {
-  background-color: lightblue;
+  background-color: lightgray;
   color: cornflowerblue;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,9 @@
 .img-header {
   width: 100%;
   margin-top: 4vh;
+  background-color: lightblue;
+  margin: 0;
+  padding-top: 4vh;
 }
 
 .nav_principal-content {
@@ -63,6 +66,12 @@
   display: flex;
   justify-content: center;
   padding: 5px 0px;
+}
+
+.hr_after-main {
+  width: 100%;
+  height: 12px;
+  margin: 0px;
 }
 
 @media (min-width: 768px) {
@@ -96,15 +105,22 @@
     height: 50px;
   }
 
+  .hr_after-main {
+    height: 18px;
+  }
+
 }
 
 @media (min-width: 1024px) {
 
   .li_nav_principal-content {
-    height: 80px;
+    height: 40px;
   }
   .nav_principal-content {
     font-size: 40px;
+  }
+  .a_nav_principal-content {
+    padding: 20px 0px 20px 0px;
   }
 
 }
