@@ -21,6 +21,12 @@
 
 // --------------------
 
+.container-section-skills {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .section__programming-skills {
   background-color: white;
 }
@@ -110,12 +116,7 @@ ul .li-skills:before {
 
 .soft-skills_icon {
   font-size: 48px;
-  margin: 0px auto;
-  // margin-left: 39px;
-  // margin-right: 5px;
-  margin: 0px;
-  margin-left: 15px;
-  margin-right: 10px;
+  margin: 0px 10px 0px 15px;
 }
 
 .soft-skills_text {
@@ -123,26 +124,13 @@ ul .li-skills:before {
   font-size: 20px;
   font-weight: normal;
   color: black;
-  margin: 20px auto;
   text-align: left;
+  margin: 20px 0px 20px 0px;
 }
 
 // --------------------
-
-.footer_skills {
-  background-color: lightblue;
-  padding-top: 100px;
-}
-
-.footer_skills_copy {
-  font-size: 35px;
-}
-
-// --------------------
-
 
 @media (min-width: 720px) {
-
   .main-title_skills {
     height: 160px;
   }
@@ -151,50 +139,6 @@ ul .li-skills:before {
     font-size: 60px;
   }
 
-  // .section__programming-skills, .section__languages, .section__soft-skills {
-  //   margin-left: 24%;
-  // }
-
-  // .section__programming_title, .section__languages_title, .section__soft-skills_title {
-  //   font-size: 30px;
-  //   padding-left: 40px;
-  // }
-
-  // .li-skills, .soft-skills_text {
-  //   font-size: 25px;
-  //   padding-left: 25px;
-  //   margin-left: 0px;
-  // }
-
-  // .ul-languages {
-  //   justify-content: left;
-  //   padding-left: 65px;
-  // }
-
-  // .flag-img {
-  //   width: 150px;
-  //   height: 140px;
-  // }
-
-  // .container_icon-and-text_soft-skills {
-  //   padding-left: 25px;
-  // }
-
-}
-
-// --------- NEW!! ----------
-
-.container-section-skills {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.container_icon-and-text_soft-skills {
-
-}
-
-@media (min-width: 720px) {
   .container-section-skills {
     flex-direction: row;
     justify-content: center;
@@ -217,7 +161,6 @@ ul .li-skills:before {
   }
 
   .soft-skills_icon {
-    // margin-left: 0px;
     font-size: 64px;
   }
 
@@ -242,10 +185,3 @@ ul .li-skills:before {
   }
 
 }
-
-.soft-skills_text {
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-
