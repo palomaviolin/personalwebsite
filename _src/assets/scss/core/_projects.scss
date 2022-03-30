@@ -109,9 +109,12 @@
 
   .description-text-project {
     font-size: 22px;
+    margin: 0 12vw 0 12vw;
   }
 }
 
 @media (min-width: 1024px) {
-
+  .description-text-project {
+    margin: 0 25vw 0 25vw;
+  }
 }
