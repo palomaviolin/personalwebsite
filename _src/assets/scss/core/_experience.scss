@@ -26,19 +26,24 @@
   background-color: white;
 }
 
+.section_experience > ul {
+  padding: 0px;
+  margin: 0px;
+}
+
 .section__experience_title {
   color: coral;
-  font-size: 85px;
+  font-size: 28px;
   margin: 0 auto;
   text-align: center;
-  padding: 55px 45px 15px 0px;
+  padding: 25px 45px 0px 0px;
   padding-left: 45px;
 }
 
 .section__experience_subtitle {
   // font-family: "Cardo", serif;
   color: orange;
-  font-size: 60px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0 auto;
   text-align: center;
@@ -48,22 +53,24 @@
 
 .date {
   color: gray;
-  font-size: 45px;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .intro-text-bootcamp {
   font-family: "Cardo", serif;
-  font-size: 40px;
+  font-size: 18px;
   font-weight: bold;
-  padding: 25px 45px 25px 45px;
+  padding: 10px 15px 10px 15px;
   text-align: center;
 }
 
 .li-bootcamp {
   list-style-type: square;
   font-family: "Cardo", serif;
-  font-size: 40px;
-  padding: 10px 45px 10px 10px;
+  font-size: 18px;
+  padding: 0px 15px 5px 0px;
 }
 
 .ul-experience {
@@ -74,5 +81,40 @@
 }
 
 .ul-detailed-experience {
-  margin-left: 35px;
+  margin-left: 15px;
+}
+
+.a_experience {
+  text-decoration: none;
+  color: orange;
+  &:hover {
+    text-decoration-line: underline;
+    color: darkturquoise;
+  }
+}
+
+@media (min-width: 720px) {
+  .main-title_experience {
+    height: 160px;
+  }
+
+  .main-title_experience_text {
+    font-size: 60px;
+  }
+
+  .section__experience_title {
+    font-size: 35px;
+  }
+
+  .section__experience_subtitle {
+    font-size: 26px;
+  }
+
+  .intro-text-bootcamp, .li-bootcamp {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+
 }
