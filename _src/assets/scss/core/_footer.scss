@@ -52,7 +52,7 @@ footer {
 .social-links {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 p {
@@ -79,5 +79,9 @@ p {
   .footer_sub-pages_copy {
     font-size: 20px;
     padding: 8px 0px 8px 0px;
+  }
+
+  .social-links {
+    padding-top: 30px;
   }
 }
