@@ -86,6 +86,19 @@
   }
 }
 
+.description-text-database {
+  text-align: left;
+}
+
+.description-text-database > li {
+  font-weight: bold;
+}
+
+.description-text-database > ul {
+  font-weight: normal;
+  list-style-type: circle;
+}
+
 @media (min-width: 720px) {
   .main-title_projects {
     height: 160px;
@@ -111,6 +124,10 @@
     font-size: 22px;
     margin: 0 12vw 0 12vw;
   }
+}
+
+.description-text-database > li {
+  margin-top: 13px;
 }
 
 @media (min-width: 1024px) {
