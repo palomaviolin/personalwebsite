@@ -1,0 +1,126 @@
+.body_landing-page {
+  background-color: lightgray;
+  color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  background-color: white;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title_header1 {
+  font-size: 35px;
+  font-family: var(--font-family_principal_barlow);
+  color: darkturquoise;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.subtitle_header1 {
+  font-size: 30px;
+  font-family: var(--font-family_principal_barlow);
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  color: black;
+}
+
+.img-header {
+  width: 100%;
+  margin-top: 4vh;
+  background-color: lightblue;
+  margin: 0;
+  padding-top: 4vh;
+}
+
+.nav_principal-content {
+  background-color: lightgray;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkorange;
+  text-transform: uppercase;
+  padding: 25px 0px;
+}
+
+.li_nav_principal-content {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: gray;
+  }
+}
+
+.a_nav_principal-content {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px;
+}
+
+.hr_after-main {
+  width: 100%;
+  height: 12px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .name {
+    height: 200px;
+  }
+
+  .title_header1 {
+    font-size: 400%;
+  }
+  .subtitle_header1 {
+    font-size: 400%;
+  }
+
+  .container_computer-and-principalnav {
+    display: flex;
+    flex-direction: row;
+  }
+  .img-header {
+    width: 50%;
+    height: 50%;
+  }
+
+  .nav_principal-content{
+    font-size: 30px;
+    padding: auto 0px;
+    width: 50%;
+  }
+
+  .li_nav_principal-content {
+    height: 50px;
+  }
+
+  .hr_after-main {
+    height: 18px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .li_nav_principal-content {
+    height: 40px;
+  }
+  .nav_principal-content {
+    font-size: 40px;
+  }
+  .a_nav_principal-content {
+    padding: 20px 0px 20px 0px;
+  }
+
+}

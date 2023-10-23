@@ -1,0 +1,207 @@
+.body_skills {
+  background-color: white;
+}
+
+/* -------------------- */
+
+.main-title_skills {
+  height: 120px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+}
+
+.main-title_skills_text {
+  font-size: 45px;
+  border-top: 8px solid darkblue;
+  border-bottom: 8px solid darkblue;
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* -------------------- */
+
+.container-section-skills {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section__programming-skills {
+  background-color: white;
+}
+
+.section__programming_title {
+  font-family: "Cardo", serif;
+  color: black;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 30px 0px 0px 0px;
+  padding-left: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul .li-skills:before {
+  content: "✓ ";
+  color: green;
+}
+
+.li-skills {
+  font-family: "Cardo", serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  margin: 12px auto;
+  padding-left: 0px;
+}
+
+/* -------------------- */
+
+.section__languages {
+  background-color: white;
+}
+
+.section__languages_title {
+  font-family: "Cardo", serif;
+  color: black;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 15px 0px 12px 15px;
+}
+
+.ul-languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.li-languages {
+  margin: 0 5px 0 5px;
+}
+
+.flag-img {
+  display: flex;
+  align-self: center;
+  width: 70px;
+  height: 50px;
+  border: 1px solid gray;
+}
+
+/* -------------------- */
+
+.section__soft-skills {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.section__soft-skills_title {
+  font-family: "Cardo", serif;
+  color: black;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 30px 0px 12px 15px;
+}
+
+.container_icon-and-text_soft-skills {
+  display: flex;
+  align-items: center;
+}
+
+.soft-skills_icon {
+  font-size: 48px;
+  margin: 0px 10px 0px 15px;
+}
+
+.soft-skills_text {
+  font-family: "Cardo", serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  text-align: left;
+  margin: 20px 0px 20px 0px;
+}
+
+/* -------------------- */
+
+@media (min-width: 490px) {
+  .li-languages {
+    margin: 0 10px 0 10px;
+  }
+
+  .flag-img {
+    width: 100px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 720px) {
+  .main-title_skills {
+    height: 160px;
+  }
+
+  .main-title_skills_text {
+    font-size: 60px;
+  }
+
+  .container-section-skills {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .section__programming_title, .section__languages_title, .section__soft-skills_title {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .ul-languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .li-languages {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .section__programming-skills, .section__languages, .section__soft-skills {
+    margin-top: 10px;
+    margin: 26px;
+  }
+
+  .soft-skills_icon {
+    font-size: 64px;
+  }
+
+  .section__languages {
+    order: 3;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .section__programming_title, .section__languages_title, .section__soft-skills_title {
+    font-size: 30px;
+  }
+
+  .li-skills, .soft-skills_text {
+    font-size: 25px;
+  }
+
+  .li-languages {
+    margin: 14px 0px 14px 0px;
+  }
+
+  .flag-img {
+    width: 150px;
+    height: 110px;
+  }
+
+}
