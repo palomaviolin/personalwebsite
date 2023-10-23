@@ -70,3 +70,7 @@ The JSON with configuration specifies the JS files we use and the order they mus
 4. Gulp is just running as a never ending process. The way to abort a process is by pressing Ctrl + C in order to close gulp in the term.
 
 (Press Ctrl+Shift+V to see markdown preview).
+
+
+personalwebsite → Settings → Code and automation → Pages → Build and deployment → BRANCH ```gh-pages``` FOLDER ```/docs```
+
