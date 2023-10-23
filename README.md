@@ -56,10 +56,10 @@ Is included the package [**gulp-combine-mq**](https://www.npmjs.com/package/gulp
 We have in **_src/** a folder for the project’s images and another for the icons as the favicon  or the icons for mobile devices. The last ones are generated in the root of the folders **public/** and **docs/**.
 
 ### JS
-The JSON with configuration specifies the JS files we use and the order they must process theirselves.\
+The JSON with configuration specifies the JS files we use and the order they must process theirselves.
 
 
-# Summary
+## Summary
 
 1. Make changes in your code.
 
