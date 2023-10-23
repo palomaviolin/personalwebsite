@@ -59,6 +59,7 @@ We have in **_src/** a folder for the project’s images and another for the ico
 The JSON with configuration specifies the JS files we use and the order they must process theirselves.
 
 
+
 ## Summary
 
 1. Make changes in your code.
