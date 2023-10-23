@@ -1,13 +1,13 @@
-@import url("./core/_variables.css");
-@import url("./core/_index.css");
-@import url("./core/_about-me.css");
-@import url("./core/_skills.css");
-@import url("./core/_projects.css");
-@import url("./core/_experience.css");
-@import url("./core/_header.css");
-@import url("./core/_footer.css");
-@import url("./core/_flip-card.css");
-@import url("./core/_tooltips.css");
+@import url("./core/variables.css");
+@import url("./core/index.css");
+@import url("./core/about-me.css");
+@import url("./core/skills.css");
+@import url("./core/projects.css");
+@import url("./core/experience.css");
+@import url("./core/header.css");
+@import url("./core/footer.css");
+@import url("./core/flip-card.css");
+@import url("./core/tooltips.css");
 
 body {
   background-color: lightblue;
