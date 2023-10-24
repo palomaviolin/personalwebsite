@@ -99,6 +99,19 @@
   list-style-type: circle;
 }
 
+.iframe__youtube{
+  width: 350px;
+  height: 200px;
+}
+
+.red-minutes{
+  color: red;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 19px;
+}
+
 @media (min-width: 720px) {
   .main-title_projects {
     height: 160px;
@@ -124,6 +137,11 @@
     font-size: 22px;
     margin: 0 12vw 0 12vw;
   }
+
+  .iframe__youtube{
+    width: 560px;
+    height: 315px;
+  }
 }
 
 .description-text-database > li {
@@ -133,5 +151,10 @@
 @media (min-width: 1024px) {
   .description-text-project {
     margin: 0 25vw 0 25vw;
+  }
+
+  .iframe__youtube{
+    width: 850px;
+    height: 478px;
   }
 }
