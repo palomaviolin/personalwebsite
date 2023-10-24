@@ -100,16 +100,16 @@
 }
 
 .iframe__youtube{
-  width: 350px;
-  height: 200px;
+  width: 350px !important;
+  height: 200px !important;
 }
 
 .red-minutes{
-  color: red;
-  font-family:'Times New Roman', Times, serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 19px;
+  color: red !important;
+  font-family:'Times New Roman', Times, serif !important;
+  font-style: italic !important;
+  font-weight: bold !important;
+  font-size: 19px !important;
 }
 
 @media (min-width: 720px) {
@@ -139,8 +139,8 @@
   }
 
   .iframe__youtube{
-    width: 560px;
-    height: 315px;
+    width: 560px !important;
+    height: 315px !important;
   }
 }
 
@@ -154,7 +154,7 @@
   }
 
   .iframe__youtube{
-    width: 850px;
-    height: 478px;
+    width: 850px !important;
+    height: 478px !important;
   }
 }
